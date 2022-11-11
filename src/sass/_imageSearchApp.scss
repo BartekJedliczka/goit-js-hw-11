@@ -34,3 +34,13 @@
   border-left: none;
   cursor: pointer;
 }
+
+.search-form-button:hover {
+  background: #c3c2c2ce;
+}
+
+.search-form::after {
+  content: '';
+  clear: both;
+  display: table;
+}
